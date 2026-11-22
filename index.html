@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivam &amp; Manisha — Wedding Invitation | 25 November 2026</title>
+  <meta name="description" content="Together with their families, Shivam and Manisha joyfully invite you to celebrate their wedding on 25 November 2026 at Dulhan Palace, GT Road, Mughalsarai." />
+
+  <!-- ========================================================================
+       OPEN GRAPH & SOCIAL PREVIEW TAGS (For WhatsApp, Facebook, X/Twitter)
+       Edit og:url and og:image once you upload your site and cover photo.
+       ======================================================================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Shivam &amp; Manisha Wedding" />
+  <meta property="og:title" content="Shivam &amp; Manisha — Wedding Invitation" />
+  <meta property="og:description" content="25 November 2026 • Dulhan Palace, GT Road, Mughalsarai. Tap to view events, venue &amp; RSVP." />
+  <meta property="og:url" content="https://shivamandmanisha.example.com/" />
+  <meta property="og:image" content="https://placehold.co/1200x630/fffbf5/4a1d24?text=Shivam+%26+Manisha%0A25+November+2026" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shivam &amp; Manisha — Wedding Invitation" />
+  <meta name="twitter:description" content="25 November 2026 • Dulhan Palace, GT Road, Mughalsarai." />
+  <meta name="twitter:image" content="https://placehold.co/1200x630/fffbf5/4a1d24?text=Shivam+%26+Manisha%0A25+November+2026" />
+
+  <!-- ========================================================================
+       GOOGLE FONTS (2 fonts max: Great Vibes script + Lora clean serif)
+       ======================================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ========================================================================
+       1. DESIGN TOKENS (Colours, Fonts, Spacing, Radii)
+       ======================================================================== */
+    :root {
+      --bg-ivory: #fffbf5;
+      --bg-ivory-soft: #f7efe2;
+      --text-maroon: #4a1d24;       /* 14.3:1 contrast against #fffbf5 */
+      --text-maroon-soft: #6b313a;  /* 10.1:1 contrast against #fffbf5 */
+      --accent-rose: #be123c;       /* 5.4:1 contrast with white text */
+      --accent-rose-dark: #9f1239;
+      --accent-gold: #b8860b;
+      --accent-gold-border: rgba(184, 134, 11, 0.3);
+      --white: #ffffff;
+
+      --font-script: 'Great Vibes', Georgia, cursive;
+      --font-body: 'Lora', Georgia, serif;
+
+      --space-xs: 0.5rem;
+      --space-sm: 1rem;
+      --space-md: 1.5rem;
+      --space-lg: 2.5rem;
+      --space-xl: 4rem;
+
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-arch: 999px 999px 16px 16px;
+      --shadow-soft: 0 8px 24px rgba(74, 29, 36, 0.07);
+      --header-h: 58px;
+    }
+
+    /* ========================================================================
+       2. BASE RESET & TYPOGRAPHY
+       ======================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-h) + 12px);
+      font-size: 16px;
+    }
+
+    body {
+      background-color: var(--bg-ivory);
+      color: var(--text-maroon);
+      font-family: var(--font-body);
+      line-height: 1.7;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Ornamental script font for names & section headings */
+    h1, h2 {
+      font-family: var(--font-script);
+      font-weight: 400;
+      line-height: 1.2;
+      color: var(--text-maroon);
+    }
+
+    h1 { font-size: clamp(3.25rem, 11vw, 5.75rem); }
+    h2 { font-size: clamp(2.4rem, 7vw, 3.5rem); text-align: center; }
+
+    /* Clean serif for event/card headings & body */
+    h3 {
+      font-family: var(--font-body);
+      font-size: clamp(1.2rem, 3vw, 1.45rem);
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    p { font-size: 1.02rem; }
+    small { font-size: 0.875rem; color: var(--text-maroon-soft); }
+
+    /* Visible keyboard focus ring */
+    :focus-visible {
+      outline: 3px solid var(--accent-rose);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 1rem;
+      background: var(--accent-rose);
+      color: var(--white);
+      padding: 0.75rem 1.25rem;
+      border-radius: var(--radius-sm);
+      z-index: 1000;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .skip-link:focus { top: 0.75rem; }
+
+    /* ========================================================================
+       3. LAYOUT & REUSABLE COMPONENTS
+       ======================================================================== */
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 var(--space-md);
+    }
+
+    .section {
+      padding: var(--space-xl) 0;
+    }
+
+    @media (min-width: 768px) {
+      .section { padding: 5rem 0; }
+    }
+
+    .section--alt {
+      background-color: var(--bg-ivory-soft);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto var(--space-lg);
+    }
+
+    .eyebrow {
+      display: block;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--accent-gold);
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+
+    /* Thin Gold Divider */
+    .gold-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      max-width: 220px;
+      margin: 0.75rem auto 0;
+    }
+    .gold-divider::before,
+    .gold-divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+    }
+    .gold-divider span {
+      color: var(--accent-gold);
+      font-size: 0.9rem;
+      line-height: 1;
+    }
+
+    /* Card Component */
+    .card {
+      background: var(--white);
+      border: 1px solid var(--accent-gold-border);
+      border-radius: var(--radius-md);
+      padding: var(--space-md);
+      box-shadow: var(--shadow-soft);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 30px rgba(74, 29, 36, 0.11);
+    }
+
+    /* Buttons (Minimum 48px height for comfortable mobile tapping) */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      min-height: 48px;
+      padding: 0.75rem 1.5rem;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: 1.5px solid transparent;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    }
+
+    .btn-primary {
+      background-color: var(--accent-rose);
+      color: var(--white);
+      border-color: var(--accent-rose);
+    }
+    .btn-primary:hover {
+      background-color: var(--accent-rose-dark);
+      border-color: var(--accent-rose-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: var(--text-maroon);
+      border-color: var(--accent-gold);
+    }
+    .btn-secondary:hover {
+      background-color: var(--accent-gold);
+      color: var(--white);
+      transform: translateY(-2px);
+    }
+
+    /* Sticky Top Navigation */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 900;
+      height: var(--header-h);
+      background: rgba(255, 251, 245, 0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--accent-gold-border);
+      display: flex;
+      align-items: center;
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .nav-logo {
+      font-family: var(--font-script);
+      font-size: 1.75rem;
+      color: var(--accent-rose);
+      text-decoration: none;
+      line-height: 1;
+      padding: 0.4rem 0;
+    }
+    .nav-list {
+      display: flex;
+      list-style: none;
+      gap: 0.25rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .nav-list::-webkit-scrollbar { display: none; }
+    .nav-list a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0.4rem 0.65rem;
+      font-size: 0.9rem;
+      color: var(--text-maroon);
+      text-decoration: none;
+      white-space: nowrap;
+      border-radius: var(--radius-sm);
+    }
+    .nav-list a:hover {
+      color: var(--accent-rose);
+      background: rgba(190, 18, 60, 0.06);
+    }
+
+    /* ========================================================================
+       4. SECTION 1: COVER
+       ======================================================================== */
+    .cover {
+      position: relative;
+      min-height: calc(100svh - var(--header-h));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: var(--space-xl) var(--space-md);
+      background: radial-gradient(circle at center, #fffdf9 0%, var(--bg-ivory-soft) 100%);
+      border-bottom: 1px solid var(--accent-gold-border);
+    }
+
+    /* Subtle Paisley Corner Motifs */
+    .paisley-corner {
+      position: absolute;
+      width: 105px;
+      height: 105px;
+      color: var(--accent-gold);
+      opacity: 0.35;
+      pointer-events: none;
+    }
+    @media (min-width: 768px) {
+      .paisley-corner { width: 165px; height: 165px; }
+    }
+    .corner-tl { top: 12px; left: 12px; }
+    .corner-tr { top: 12px; right: 12px; transform: scaleX(-1); }
+    .corner-bl { bottom: 12px; left: 12px; transform: scaleY(-1); }
+    .corner-br { bottom: 12px; right: 12px; transform: scale(-1, -1); }
+
+    .cover-content {
+      position: relative;
+      z-index: 1;
+      max-width: 720px;
+    }
+    .cover-prelude {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--text-maroon-soft);
+      margin-bottom: var(--space-sm);
+    }
+    .cover-names .amp {
+      display: block;
+      font-size: 0.65em;
+      color: var(--accent-rose);
+      line-height: 0.9;
+    }
+    @media (min-width: 768px) {
+      .cover-names .amp {
+        display: inline;
+        margin: 0 0.25em;
+      }
+    }
+    .cover-date-city {
+      margin-top: var(--space-sm);
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+    }
+    .scroll-hint {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.3rem;
+      margin-top: var(--space-xl);
+      min-height: 44px;
+      padding: 0.5rem 1rem;
+      color: var(--accent-rose);
+      text-decoration: none;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+    }
+    .scroll-arrow {
+      animation: floatArrow 2s ease-in-out infinite;
+    }
+    @keyframes floatArrow {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(5px); }
+    }
+
+    /* ========================================================================
+       5. SECTION 2: COUNTDOWN
+       ======================================================================== */
+    .countdown-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-sm);
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+      .countdown-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--space-md);
+      }
+    }
+    .countdown-card {
+      text-align: center;
+      padding: var(--space-md) var(--space-xs);
+    }
+    .countdown-value {
+      display: block;
+      font-size: clamp(2rem, 6vw, 2.75rem);
+      font-weight: 600;
+      color: var(--accent-rose);
+      line-height: 1.1;
+    }
+    .countdown-label {
+      display: block;
+      margin-top: 0.35rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--text-maroon-soft);
+    }
+
+    /* ========================================================================
+       6. SECTION 3: OUR STORY
+       ======================================================================== */
+    .story-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-lg);
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .story-layout {
+        grid-template-columns: 1fr 1.2fr;
+        gap: var(--space-xl);
+      }
+    }
+    .arch-frame {
+      max-width: 340px;
+      margin: 0 auto;
+      padding: 10px;
+      background: var(--white);
+      border: 1.5px solid var(--accent-gold);
+      border-radius: var(--radius-arch);
+      box-shadow: var(--shadow-soft);
+    }
+    .arch-frame img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border-radius: var(--radius-arch);
+    }
+    .story-copy h3 {
+      color: var(--accent-rose);
+      margin-bottom: 0.75rem;
+    }
+    .story-copy p + p {
+      margin-top: var(--space-sm);
+    }
+
+    /* ========================================================================
+       7. SECTION 4: EVENTS (VERTICAL TIMELINE)
+       ======================================================================== */
+    .timeline {
+      position: relative;
+      max-width: 780px;
+      margin: 0 auto;
+      padding-left: 1.85rem;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 6px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, var(--accent-gold), var(--accent-rose), var(--accent-gold));
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: var(--space-md);
+    }
+    .timeline-item:last-child { margin-bottom: 0; }
+    .timeline-marker {
+      position: absolute;
+      left: -1.85rem;
+      top: 1.4rem;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--accent-rose);
+      border: 2px solid var(--bg-ivory);
+      box-shadow: 0 0 0 2px var(--accent-gold);
+    }
+    .event-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.25rem;
+      margin: 0.6rem 0;
+      font-size: 0.95rem;
+      color: var(--text-maroon-soft);
+    }
+    .dress-badge {
+      display: inline-block;
+      margin-top: 0.25rem;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.875rem;
+      background: var(--bg-ivory-soft);
+      border: 1px solid var(--accent-gold-border);
+      border-radius: 999px;
+    }
+
+    /* ========================================================================
+       8. SECTION 5: VENUE
+       ======================================================================== */
+    .venue-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-md);
+      align-items: stretch;
+    }
+    @media (min-width: 768px) {
+      .venue-layout {
+        grid-template-columns: 1fr 1.2fr;
+        gap: var(--space-lg);
+      }
+    }
+    .venue-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: var(--space-sm);
+    }
+    .map-box {
+      position: relative;
+      min-height: 260px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--accent-gold);
+      overflow: hidden;
+      background: #efe5d3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .map-box svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .map-label {
+      position: relative;
+      z-index: 1;
+      background: var(--white);
+      border: 1px solid var(--accent-gold);
+      padding: 0.75rem 1.25rem;
+      border-radius: var(--radius-sm);
+      text-align: center;
+      box-shadow: var(--shadow-soft);
+    }
+
+    /* ========================================================================
+       9. SECTION 6: GALLERY
+       ======================================================================== */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-sm);
+    }
+    @media (min-width: 768px) {
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-md);
+      }
+    }
+    @media (min-width: 1200px) {
+      .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    .gallery-card {
+      overflow: hidden;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--accent-gold-border);
+      aspect-ratio: 4 / 3;
+      background: var(--bg-ivory-soft);
+    }
+    .gallery-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.45s ease;
+    }
+    .gallery-card:hover img {
+      transform: scale(1.06);
+    }
+
+    /* ========================================================================
+       10. SECTION 7: RSVP
+       ======================================================================== */
+    .rsvp-box {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .form-field {
+      margin-bottom: var(--space-md);
+    }
+    .form-label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+    .form-input {
+      width: 100%;
+      min-height: 48px;
+      padding: 0.7rem 0.9rem;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      color: var(--text-maroon);
+      background: var(--bg-ivory);
+      border: 1.5px solid var(--accent-gold-border);
+      border-radius: var(--radius-sm);
+    }
+    .form-input:focus {
+      border-color: var(--accent-rose);
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(190, 18, 60, 0.14);
+    }
+    .radio-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .radio-pill {
+      flex: 1;
+      min-width: 170px;
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1rem;
+      background: var(--bg-ivory);
+      border: 1.5px solid var(--accent-gold-border);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+    }
+    .radio-pill input {
+      accent-color: var(--accent-rose);
+      width: 18px;
+      height: 18px;
+    }
+    .rsvp-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    @media (min-width: 600px) {
+      .rsvp-buttons { flex-direction: row; }
+      .rsvp-buttons .btn { flex: 1; }
+    }
+    .rsvp-feedback {
+      display: none;
+      margin-top: var(--space-sm);
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-ivory-soft);
+      border-left: 4px solid var(--accent-rose);
+      font-weight: 500;
+    }
+    .rsvp-feedback.is-shown { display: block; }
+
+    /* ========================================================================
+       11. SECTION 8: FOOTER
+       ======================================================================== */
+    .site-footer {
+      background: var(--text-maroon);
+      color: var(--bg-ivory);
+      text-align: center;
+      padding: var(--space-xl) var(--space-md);
+    }
+    .footer-hashtag {
+      font-family: var(--font-script);
+      font-size: 2.35rem;
+      color: #f5d061;
+      margin-top: 0.35rem;
+    }
+
+    /* ========================================================================
+       12. SCROLL REVEAL & PREFERS-REDUCED-MOTION
+       ======================================================================== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.55s ease, transform 0.55s ease;
+    }
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
+      .scroll-arrow,
+      .card,
+      .btn,
+      .gallery-card img {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to invitation</a>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#cover" class="nav-logo" aria-label="Shivam and Manisha Home">S &amp; M</a>
+      <nav aria-label="Invitation sections">
+        <ul class="nav-list">
+          <li><a href="#countdown">Countdown</a></li>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ======================================================================
+         1. COVER
+         ====================================================================== -->
+    <section id="cover" class="cover" aria-label="Wedding Cover">
+      <!-- Subtle Paisley Corner Motifs (Inline SVG) -->
+      <svg class="paisley-corner corner-tl" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        <path d="M8 112V28C8 16.954 16.954 8 28 8H112" stroke="currentColor" stroke-width="2"/>
+        <path d="M22 92C22 50 50 22 92 22" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <path d="M32 32C48 32 58 44 46 56C34 68 22 58 22 42C22 36 26 32 32 32Z" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="36" cy="42" r="3" fill="currentColor"/>
+      </svg>
+      <svg class="paisley-corner corner-tr" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        <path d="M8 112V28C8 16.954 16.954 8 28 8H112" stroke="currentColor" stroke-width="2"/>
+        <path d="M22 92C22 50 50 22 92 22" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <path d="M32 32C48 32 58 44 46 56C34 68 22 58 22 42C22 36 26 32 32 32Z" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="36" cy="42" r="3" fill="currentColor"/>
+      </svg>
+      <svg class="paisley-corner corner-bl" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        <path d="M8 112V28C8 16.954 16.954 8 28 8H112" stroke="currentColor" stroke-width="2"/>
+        <path d="M22 92C22 50 50 22 92 22" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <path d="M32 32C48 32 58 44 46 56C34 68 22 58 22 42C22 36 26 32 32 32Z" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="36" cy="42" r="3" fill="currentColor"/>
+      </svg>
+      <svg class="paisley-corner corner-br" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        <path d="M8 112V28C8 16.954 16.954 8 28 8H112" stroke="currentColor" stroke-width="2"/>
+        <path d="M22 92C22 50 50 22 92 22" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <path d="M32 32C48 32 58 44 46 56C34 68 22 58 22 42C22 36 26 32 32 32Z" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="36" cy="42" r="3" fill="currentColor"/>
+      </svg>
+
+      <div class="cover-content">
+        <p class="cover-prelude">Together with their families</p>
+        <h1 class="cover-names">
+          Shivam <span class="amp">&amp;</span> Manisha
+        </h1>
+        <div class="gold-divider" aria-hidden="true"><span>&#10022;</span></div>
+        <p class="cover-date-city">25 November 2026 &bull; Mughalsarai</p>
+        <a href="#countdown" class="scroll-hint">
+          <span>Scroll to continue</span>
+          <span class="scroll-arrow" aria-hidden="true">&#8595;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. COUNTDOWN
+         ====================================================================== -->
+    <section id="countdown" class="section" aria-labelledby="heading-countdown">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Counting Every Moment</span>
+          <h2 id="heading-countdown">Until We Tie the Knot</h2>
+          <div class="gold-divider" aria-hidden="true"><span>&#10022;</span></div>
+        </div>
+
+        <div class="countdown-grid reveal" role="timer" aria-live="off">
+          <div class="card countdown-card">
+            <span id="cd-days" class="countdown-value">00</span>
+            <span class="countdown-label">Days</span>
+          </div>
+          <div class="card countdown-card">
+            <span id="cd-hours" class="countdown-value">00</span>
+            <span class="countdown-label">Hours</span>
+          </div>
+          <div class="card countdown-card">
+            <span id="cd-minutes" class="countdown-value">00</span>
+            <span class="countdown-label">Minutes</span>
+          </div>
+          <div class="card countdown-card">
+            <span id="cd-seconds" class="countdown-value">00</span>
+            <span class="countdown-label">Seconds</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. OUR STORY
+         ====================================================================== -->
+    <section id="story" class="section section--alt" aria-labelledby="heading-story">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">A Match Made in Heaven</span>
+          <h2 id="heading-story">Our Story</h2>
+          <div class="gold-divider" aria-hidden="true"><span>&#10022;</span></div>
+        </div>
+
+        <div class="story-layout reveal">
+          <div class="arch-frame">
+            <!-- Replace src with your couple portrait (600x800 recommended) -->
+            <img
+              src="https://placehold.co/600x800/f7efe2/4a1d24?text=Shivam+%26+Manisha%0ACouple+Portrait"
+              alt="Shivam and Manisha smiling together in traditional festive attire"
+              width="600"
+              height="800"
+              loading="lazy"
+            />
+          </div>
+          <div class="story-copy">
+            <h3>Two Families, One Beautiful Journey</h3>
+            <p>
+              What started with a warm introduction between our families soon blossomed into endless conversations, shared dreams, and effortless laughter. Over cups of evening chai and long walks, we realized that home isn&rsquo;t a place—it&rsquo;s being together.
+            </p>
+            <p>
+              As we take our sacred vows in Mughalsarai, we would be honored to have your blessings, warmth, and presence as we begin this new chapter side by side.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. EVENTS (VERTICAL TIMELINE)
+         ====================================================================== -->
+    <section id="events" class="section" aria-labelledby="heading-events">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Wedding Festivities</span>
+          <h2 id="heading-events">Ceremonies &amp; Schedule</h2>
+          <div class="gold-divider" aria-hidden="true"><span>&#10022;</span></div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item card reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <h3>Mehendi</h3>
+            <div class="event-details">
+              <span><strong>Date:</strong> Tuesday, 24 November 2026</span>
+              <span><strong>Time:</strong> 12:00 PM &ndash; 4:00 PM</span>
+              <span><strong>Venue:</strong> Courtyard Lawn, Dulhan Palace</span>
+            </div>
+            <span class="dress-badge"><strong>Dress Code:</strong> Shades of Green &amp; Floral Pastels</span>
+          </article>
+
+          <article class="timeline-item card reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <h3>Sangeet</h3>
+            <div class="event-details">
+              <span><strong>Date:</strong> Tuesday, 24 November 2026</span>
+              <span><strong>Time:</strong> 7:30 PM Onwards</span>
+              <span><strong>Venue:</strong> Royal Banquet Hall, Dulhan Palace</span>
+            </div>
+            <span class="dress-badge"><strong>Dress Code:</strong> Festive Glamour &amp; Jewel Tones</span>
+          </article>
+
+          <article class="timeline-item card reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <h3>Haldi</h3>
+            <div class="event-details">
+              <span><strong>Date:</strong> Wednesday, 25 November 2026</span>
+              <span><strong>Time:</strong> 10:00 AM &ndash; 12:30 PM</span>
+              <span><strong>Venue:</strong> Terrace Garden, Dulhan Palace</span>
+            </div>
+            <span class="dress-badge"><strong>Dress Code:</strong> Marigold Yellow &amp; Ivory</span>
+          </article>
+
+          <article class="timeline-item card reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <h3>Wedding</h3>
+            <div class="event-details">
+              <span><strong>Date:</strong> Wednesday, 25 November 2026</span>
+              <span><strong>Time:</strong> 7:00 PM (Baraat &amp; Pheras)</span>
+              <span><strong>Venue:</strong> Grand Mandap, Dulhan Palace</span>
+            </div>
+            <span class="dress-badge"><strong>Dress Code:</strong> Traditional Indian Finery</span>
+          </article>
+
+          <article class="timeline-item card reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <h3>Reception</h3>
+            <div class="event-details">
+              <span><strong>Date:</strong> Thursday, 26 November 2026</span>
+              <span><strong>Time:</strong> 7:30 PM &ndash; 11:00 PM</span>
+              <span><strong>Venue:</strong> Dulhan Palace, GT Road, Mughalsarai</span>
+            </div>
+            <span class="dress-badge"><strong>Dress Code:</strong> Evening Ethnic / Formal Attire</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. VENUE
+         ====================================================================== -->
+    <section id="venue" class="section section--alt" aria-labelledby="heading-venue">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Where to Join Us</span>
+          <h2 id="heading-venue">The Venue</h2>
+          <div class="gold-divider" aria-hidden="true"><span>&#10022;</span></div>
+        </div>
+
+        <div class="venue-layout reveal">
+          <div class="card venue-info">
+            <h3>Dulhan Palace</h3>
+            <p>
+              GT Road, Mughalsarai,<br />
+              Chandauli District, Uttar Pradesh 232101
+            </p>
+            <p>
+              Conveniently located on Grand Trunk Road, just 10 minutes from Pt. Deen Dayal Upadhyaya Junction (Mughalsarai Railway Station).
+            </p>
+            <div>
+              <a
+                href="https://maps.google.com/?q=Dulhan+Palace+GT+Road+Mughalsarai"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+              >
+                Open in Maps
+              </a>
+            </div>
+          </div>
+
+          <div class="map-box" role="img" aria-label="Illustrated map showing Dulhan Palace on GT Road in Mughalsarai">
+            <svg viewBox="0 0 600 340" fill="none" aria-hidden="true">
+              <rect width="600" height="340" fill="#efe5d3"/>
+              <!-- Stylized GT Road & Junction -->
+              <path d="M0 210 Q 300 170 600 190" stroke="#fffbf5" stroke-width="14" stroke-linecap="round"/>
+              <path d="M0 210 Q 300 170 600 190" stroke="#b8860b" stroke-width="1.5" stroke-dasharray="8 8"/>
+              <path d="M230 0 L 270 340" stroke="#fffbf5" stroke-width="9"/>
+              <circle cx="310" cy="182" r="14" fill="#be123c" stroke="#fffbf5" stroke-width="4"/>
+            </svg>
+            <div class="map-label">
+              <strong>Dulhan Palace</strong><br />
+              <small>GT Road, Mughalsarai</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. GALLERY
+         ====================================================================== -->
+    <section id="gallery" class="section" aria-labelledby="heading-gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Cherished Moments</span>
+          <h2 id="heading-gallery">Gallery</h2>
+          <div class="gold-divider" aria-hidden="true"><span>&#10022;</span></div>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <!-- Replace these 6 placeholder URLs with your own compressed photos -->
+          <figure class="gallery-card">
+            <img
+              src="https://placehold.co/600x450/f7efe2/4a1d24?text=Moment+1+%E2%80%A2+Roka+Ceremony"
+              alt="Shivam and Manisha exchanging garlands during the Roka ceremony"
+              width="600"
+              height="450"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-card">
+            <img
+              src="https://placehold.co/600x450/f7efe2/4a1d24?text=Moment+2+%E2%80%A2+Engagement+Rings"
+              alt="Close-up of engagement rings resting on fresh marigold and rose petals"
+              width="600"
+              height="450"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-card">
+            <img
+              src="https://placehold.co/600x450/f7efe2/4a1d24?text=Moment+3+%E2%80%A2+Evening+Stroll"
+              alt="Shivam and Manisha walking together at sunset"
+              width="600"
+              height="450"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-card">
+            <img
+              src="https://placehold.co/600x450/f7efe2/4a1d24?text=Moment+4+%E2%80%A2+Family+Blessings"
+              alt="Both families celebrating together with sweets and smiles"
+              width="600"
+              height="450"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-card">
+            <img
+              src="https://placehold.co/600x450/f7efe2/4a1d24?text=Moment+5+%E2%80%A2+Festive+Laughter"
+              alt="Candid portrait of Shivam and Manisha laughing together"
+              width="600"
+              height="450"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery-card">
+            <img
+              src="https://placehold.co/600x450/f7efe2/4a1d24?text=Moment+6+%E2%80%A2+Save+The+Date"
+              alt="Traditional festive portrait of the couple holding a Save the Date sign"
+              width="600"
+              height="450"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. RSVP
+         ====================================================================== -->
+    <section id="rsvp" class="section section--alt" aria-labelledby="heading-rsvp">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">We Await Your Presence</span>
+          <h2 id="heading-rsvp">RSVP</h2>
+          <div class="gold-divider" aria-hidden="true"><span>&#10022;</span></div>
+        </div>
+
+        <div class="card rsvp-box reveal">
+          <form id="rsvp-form" novalidate>
+            <div class="form-field">
+              <label for="guest-name" class="form-label">Your Full Name *</label>
+              <input
+                type="text"
+                id="guest-name"
+                name="name"
+                class="form-input"
+                placeholder="e.g., Ankit Srivastava"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="guest-count" class="form-label">Number of Guests</label>
+              <select id="guest-count" name="guests" class="form-input">
+                <option value="1">1 Guest</option>
+                <option value="2" selected>2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5+">5+ Guests (Family)</option>
+              </select>
+            </div>
+
+            <fieldset class="form-field" style="border: none;">
+              <legend class="form-label">Will you be attending?</legend>
+              <div class="radio-row">
+                <label class="radio-pill">
+                  <input type="radio" name="attending" value="Yes, joyfully attending" checked />
+                  <span>Yes, joyfully attending</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="attending" value="No, sending warm wishes" />
+                  <span>No, sending wishes</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="form-field">
+              <label for="guest-message" class="form-label">Message for the Couple</label>
+              <textarea
+                id="guest-message"
+                name="message"
+                class="form-input"
+                rows="3"
+                placeholder="Write your blessings or arrival details..."
+              ></textarea>
+            </div>
+
+            <div class="rsvp-buttons">
+              <button type="submit" class="btn btn-primary">Confirm RSVP</button>
+              <button type="button" id="whatsapp-btn" class="btn btn-secondary">
+                Reply on WhatsApp
+              </button>
+            </div>
+
+            <div id="rsvp-feedback" class="rsvp-feedback" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       8. FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Thank you for being part of our story and blessing our union with your love.</p>
+      <p class="footer-hashtag">#ShivamWedsManisha</p>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       VANILLA JAVASCRIPT (Countdown, WhatsApp RSVP, Scroll Reveal)
+       ======================================================================== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      /* ----------------------------------------------------------------------
+         A. LIVE COUNTDOWN TO 25 NOVEMBER 2026 (7:00 PM IST)
+         ---------------------------------------------------------------------- */
+      const targetTime = new Date('2026-11-25T19:00:00+05:30').getTime();
+      const elDays = document.getElementById('cd-days');
+      const elHours = document.getElementById('cd-hours');
+      const elMinutes = document.getElementById('cd-minutes');
+      const elSeconds = document.getElementById('cd-seconds');
+
+      function tickCountdown() {
+        const diff = Math.max(0, targetTime - Date.now());
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((diff / (1000 * 60)) % 60);
+        const seconds = Math.floor((diff / 1000) % 60);
+
+        elDays.textContent = String(days).padStart(2, '0');
+        elHours.textContent = String(hours).padStart(2, '0');
+        elMinutes.textContent = String(minutes).padStart(2, '0');
+        elSeconds.textContent = String(seconds).padStart(2, '0');
+      }
+
+      tickCountdown();
+      setInterval(tickCountdown, 1000);
+
+      /* ----------------------------------------------------------------------
+         B. RSVP FORM & WHATSAPP PRE-FILLED MESSAGE
+         ---------------------------------------------------------------------- */
+      // IMPORTANT: Replace this with your actual WhatsApp phone number (country code + number, no '+' or spaces)
+      const WHATSAPP_NUMBER = '919876543210';
+
+      const form = document.getElementById('rsvp-form');
+      const whatsappBtn = document.getElementById('whatsapp-btn');
+      const feedback = document.getElementById('rsvp-feedback');
+      const nameInput = document.getElementById('guest-name');
+      const countInput = document.getElementById('guest-count');
+      const messageInput = document.getElementById('guest-message');
+
+      function readForm() {
+        const selected = form.querySelector('input[name="attending"]:checked');
+        return {
+          name: nameInput.value.trim(),
+          guests: countInput.value,
+          attending: selected ? selected.value : 'Yes, joyfully attending',
+          message: messageInput.value.trim()
+        };
+      }
+
+      function showMessage(text) {
+        feedback.textContent = text;
+        feedback.classList.add('is-shown');
+      }
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const data = readForm();
+        if (!data.name) {
+          showMessage('Please enter your name so we know who is replying.');
+          nameInput.focus();
+          return;
+        }
+        showMessage(
+          `Thank you, ${data.name}! Your RSVP (${data.attending} • ${data.guests}) is noted.`
+        );
+        form.reset();
+      });
+
+      whatsappBtn.addEventListener('click', () => {
+        const data = readForm();
+        const guestName = data.name || 'Guest';
+        const noteLine = data.message ? `
+Message: ${data.message}` : '';
+        const text =
+          `Namaste! RSVP for Shivam & Manisha's Wedding:
+` +
+          `Name: ${guestName}
+` +
+          `Attending: ${data.attending}
+` +
+          `Guests: ${data.guests}${noteLine}`;
+
+        const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+        window.open(waUrl, '_blank', 'noopener,noreferrer');
+      });
+
+      /* ----------------------------------------------------------------------
+         C. GENTLE SCROLL REVEAL (Disabled if prefers-reduced-motion is set)
+         ---------------------------------------------------------------------- */
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const revealItems = document.querySelectorAll('.reveal');
+
+      if (reduceMotion || !('IntersectionObserver' in window)) {
+        revealItems.forEach((item) => item.classList.add('is-visible'));
+      } else {
+        const observer = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                obs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12 }
+        );
+        revealItems.forEach((item) => observer.observe(item));
+      }
+    });
+  </script>
+</body>
+</html>
